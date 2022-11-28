@@ -19,7 +19,7 @@ def Listen():
 
     r = sr.Recognizer()
 
-    with sr.Microphone() as source:
+    with sr.Microphone() as source
         print("Listening...")
         r.pause_threshold = 1
         audio = r.listen(source,0,8) # Listening Mode.....
